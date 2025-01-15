@@ -1,7 +1,31 @@
-# Project Name
+# Mohamed Office
 
 ## Overview
-This project is built using **React**, **Vite**, and **TypeScript**. It includes both frontend and backend components. The frontend leverages modern React tools and routing, while the backend is powered by Express with additional middleware for functionality such as environment variable management and HTTP request handling.
+Top Box Office in the US
+
+### Approach
+To tackle this project, I followed a systematic development process:
+
+1. **Planning and Setup**: Defined project requirements and set up a monorepo structure for managing both frontend and backend.
+
+2. **Frontend Development**:
+   - Started by creating the initial layout to visualize the application's structure and design.
+   - Mocked data was used to test and refine the layout, ensuring a smooth user experience before implementing real data.
+   - Installed and configured all necessary frontend packages to ensure the development environment was fully prepared.
+
+3. **Backend Development**:
+   - Built a RESTful API using Express for handling application data.
+   - Configured environment variables with Dotenv to securely manage sensitive data like API keys.
+   - Enabled CORS to allow secure communication between the frontend and backend during development.
+   - Used Nodemon to enhance development efficiency by automatically restarting the server on file changes.
+   - Leveraged the Request library for interacting with external APIs.
+
+4. **Integration**:
+   - Connected the frontend to the backend API using React Query for efficient data fetching and caching.
+
+5. **Authentication**:
+   - Implemented user authentication using Clerk. Clerk was chosen because it simplifies session management, handling user sessions securely and efficiently out of the box.
+
 
 ## Features
 - **Frontend**
@@ -94,6 +118,9 @@ Make sure you have the following installed on your machine:
 
 ### Backend
 - `npm run dev or nodemon index.js` - Starts the backend server with Nodemon
+
+
+
 
 
 
