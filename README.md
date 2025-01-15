@@ -40,7 +40,14 @@ Make sure you have the following installed on your machine:
    ```
 
 3. Set up environment variables:
-   - Create a `.env` file in the `backend` directory and add necessary configurations.
+   - For the **backend**, create a `.env` file in the `backend` directory with the following content:
+     ```env
+     API_KEY=your-backend-api-key
+     ```
+   - For the **frontend**, create a `.env` file in the `frontend` directory with the following content:
+     ```env
+     VITE_CLERK_PUBLISHABLE_KEY=your-frontend-publishable-key
+     ```
 
 4. Run the application:
    ```bash
@@ -87,5 +94,7 @@ Make sure you have the following installed on your machine:
 
 ### Backend
 - `npm run dev or nodemon index.js` - Starts the backend server with Nodemon
+
+
 
 
