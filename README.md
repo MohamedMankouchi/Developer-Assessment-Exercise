@@ -14,7 +14,6 @@ To tackle this project, I followed a systematic development process:
    - Installed and configured all necessary frontend packages to ensure the development environment was fully prepared.
 
 3. **Backend Development**:
-   - Built a RESTful API using Express for handling application data.
    - Configured environment variables with Dotenv to securely manage sensitive data like API keys.
    - Enabled CORS to allow secure communication between the frontend and backend during development.
    - Used Nodemon to enhance development efficiency by automatically restarting the server on file changes.
