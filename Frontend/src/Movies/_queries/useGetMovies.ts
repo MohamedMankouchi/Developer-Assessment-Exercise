@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
-import { movieKeys } from "../movieKeys";
-import { MovieProps } from "../Movies.types";
+import { movieKeys } from "@/Movies/movieKeys";
+import { MovieProps } from "@/Movies/Movies.types";
 
 const getMovies = async (): Promise<MovieProps[]> => {
   const res = await fetch("http://localhost:3000/movies");
